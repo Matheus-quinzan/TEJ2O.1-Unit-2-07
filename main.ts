@@ -1,8 +1,8 @@
 /* Copyright (c) 2020 MTHS All rights reserved
  *
- * Created by: XXX
- * Created on: Sep 2020
- * This program ...
+ * Created by: Matheus Quinzan
+ * Created on: Sep 2025
+ * This program Shows the number of cookies + 1 every time you press the button A
 */
 let numberOfCookies: number = 0
 
