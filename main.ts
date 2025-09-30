@@ -9,14 +9,9 @@ let numberOfCookies: number = 0
 basic.clearScreen()
 basic.showIcon(IconNames.Happy)
 
-// Shows Number Of Cookies
-
+// shows number of cookies
 input.onButtonPressed(Button.A, function () {
     numberOfCookies = (numberOfCookies + 1)
-    basic.showString('' + (numberOfCookies).toString())
-})
-
-input.onButtonPressed(Button.B, function () {
-    numberOfCookies = (0)
+    basic.clearScreen()
     basic.showString('' + (numberOfCookies).toString())
 })
